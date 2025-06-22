@@ -11,6 +11,8 @@ Email configuration is assumed to be set in the .env file before testing.
 
 Improvements Implemented
 
+This project follows the Service and Repository Pattern to keep code clean, testable, and maintainable.
+
 Created a custom AgentMiddleware to restrict access to agent-only routes.
 
 Applied role-based access control using middleware.
